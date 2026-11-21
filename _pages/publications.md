@@ -12,9 +12,9 @@ Selected Publications
 ------
 * **Qingtian Wu**, X Wang, N Li, F Simon, L Zhang, J Yang. [Real-Time Face and Facial Landmark Joint Detection based on End-to-End Deep Network](https://ieeexplore.ieee.org/abstract/document/10124029). Accepted in IEEE Transactions on Instrumentation and Measurement  (IF: 5.6, JCR: Q1), 2024. <u>(First Author)</u>
 
-* **Qingtian Wu**, Nannan Li, Liming Zhang and Fei Yu. [Driver Drowsiness Detection Based on Joint Human Face and Facial Landmark Localization with Cheap Operations](https://ieeexplore.ieee.org/abstract/document/10124029). Accepted in IEEE Transactions on Intelligent Transportation Systems  (IF: 7.9, JCR: Q1), 2024. <u>(First Author)</u>
+* **Qingtian Wu**, Nannan Li, Liming Zhang and Fei Yu. [Driver Drowsiness Detection Based on Joint Human Face and Facial Landmark Localization with Cheap Operations](https://doi.org/10.1109/TITS.2024.3443832). Accepted in IEEE Transactions on Intelligent Transportation Systems  (IF: 7.9, JCR: Q1), 2024. <u>(First Author)</u>
 
-* **Qingtian Wu**, Yu Zhang, and Liming Zhang. [Parallel Self-Attention and Spatial-Attention Fusion for Human Pose Estimation and Running Movement Recognition](https://ieeexplore.ieee.org/abstract/document/10124029). IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0, JCR: Q2), 2023. <u>(First Author)</u>
+* **Qingtian Wu**, Yu Zhang, and Liming Zhang. [Parallel Self-Attention and Spatial-Attention Fusion for Human Pose Estimation and Running Movement Recognition](https://doi.org/10.1109/TCDS.2023.3275652). IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0, JCR: Q2), 2023. <u>(First Author)</u>
 
 * **Qingtian Wu**, Yongfei Wu, Yu Zhang, and Liming Zhang. [A Local–Global Estimator Based on Large Kernel CNN and Transformer for Human Pose Estimation and Running Pose Measurement](https://ieeexplore.ieee.org/document/9863852). IEEE Transactions on Instrumentation and Measurement (IF: 5.6, JCR Q1), 2022. (First Author)
 
