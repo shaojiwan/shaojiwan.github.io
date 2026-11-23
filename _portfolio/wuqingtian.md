@@ -4,7 +4,7 @@ title: "课题组负责人：吴庆甜"
 role: "课题组负责人 · 人工智能学院讲师"
 group: leader
 order: 2
-photo: ""
+photo: "/images/wuqingtian.jpg"
 collection: portfolio
 ---
 

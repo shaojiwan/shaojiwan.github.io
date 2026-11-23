@@ -4,7 +4,7 @@ title: "课题组长：杨欧"
 role: "课题组长 · 人工智能学院副院长"
 group: leader
 order: 1
-photo: ""
+photo: "/images/ouyang.jpg"
 collection: portfolio
 ---
 
