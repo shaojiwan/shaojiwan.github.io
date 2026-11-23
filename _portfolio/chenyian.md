@@ -1,7 +1,7 @@
 ---
 name: "陈怡安"
 title: "本科生：陈怡安"
-role: "本科生 · 深职大人工智能专业"
+role: "专科生 · 深职大人工智能专业"
 group: undergrad
 order: 5
 photo: "/images/chenyian.jpg"

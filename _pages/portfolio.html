@@ -92,7 +92,7 @@ author_profile: true
 
 {% for member in sorted_members %}
   {% if member.group == "undergrad" %}
-    {% if member.order == 5 %}<h2 class="group-heading">本科生</h2><div class="people-grid">{% endif %}
+    {% if member.order == 5 %}<h2 class="group-heading">专科生</h2><div class="people-grid">{% endif %}
     {% include member-card.html member=member %}
     {% if member.order == 7 %}</div>{% endif %}
   {% endif %}
