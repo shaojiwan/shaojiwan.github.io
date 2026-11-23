@@ -10,9 +10,21 @@ redirect_from:
 
 Selected Publications
 ------
+* **Qingtian Wu**, X Chen, Y Xiaohu, Y Ou, Y Jinfeng. RA-PPO: Coupling Residual Architectures and Adaptive Optimization for Robust Humanoid Locomotion. 2026 International Conference on Information Automation (ICIA), 2026.
+
+* Ning Liu, Nannan Zhao, Ou Yang, **Qingtian Wu**, Xinyu Ouyang. [Context Geometry Volume and Warping Refinement for Real-Time Stereo Matching](https://doi.org/10.3390/electronics14050892). Electronics, 14(5):892, 2025.
+
+* Junqi Yao, Yonghui Yang, Ou Yang, **Qingtian Wu**. [A Lightweight Dual-Branch Meta-Learner for Few-Shot HSI Classification With Cross-Domain Adaptation](https://doi.org/10.1049/cvi2.70050). IET Computer Vision, 19(1):e70050, 2025.
+
 * **Qingtian Wu**, X Wang, N Li, F Simon, L Zhang, J Yang. [Real-Time Face and Facial Landmark Joint Detection based on End-to-End Deep Network](https://ieeexplore.ieee.org/abstract/document/10124029). Accepted in IEEE Transactions on Instrumentation and Measurement  (IF: 5.6, JCR: Q1), 2024. <u>(First Author)</u>
 
 * **Qingtian Wu**, Nannan Li, Liming Zhang and Fei Yu. [Driver Drowsiness Detection Based on Joint Human Face and Facial Landmark Localization with Cheap Operations](https://doi.org/10.1109/TITS.2024.3443832). Accepted in IEEE Transactions on Intelligent Transportation Systems  (IF: 7.9, JCR: Q1), 2024. <u>(First Author)</u>
+
+* **Qingtian Wu**, Jinfeng Yang, Ou Yang, Liming Zhang, Yisheng Guan. [Robust Real-Time PCB Defect Detection Using Improved DETR](https://doi.org/10.1109/ROBIO64047.2024.10907284). 2024 IEEE International Conference on Robotics and Biomimetics (ROBIO), Bangkok, Thailand, pp.59-64, 2024. <u>(First Author)</u>
+
+* Nannan Li, Kan Huang, **Qingtian Wu**, Yang Zhao. [Integrating pseudo labeling with contrastive clustering for transformer-based semi-supervised action recognition](https://doi.org/10.1007/s10489-024-05661-1). Applied Intelligence, 54(22):11177-11195, 2024.
+
+* Yifei Liu, **Qingtian Wu**, Xueyu Liu, Junyu Lu, Zhenhuan Xu, Yongfei Wu, Shu Feng, Jue Wang, Yujiu Yang. [Level set guided region prototype rectification network for retinal vessel segmentation](https://doi.org/10.1016/j.bspc.2024.105428). Biomedical Signal Processing and Control, 87:105428, 2024.
 
 * **Qingtian Wu**, Yu Zhang, and Liming Zhang. [Parallel Self-Attention and Spatial-Attention Fusion for Human Pose Estimation and Running Movement Recognition](https://doi.org/10.1109/TCDS.2023.3275652). IEEE Transactions on Cognitive and Developmental Systems (IF: 5.0, JCR: Q2), 2023. <u>(First Author)</u>
 
