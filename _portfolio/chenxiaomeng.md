@@ -4,7 +4,7 @@ title: "本科生：陈晓梦"
 role: "本科生 · 深职大人工智能技术应用专业"
 group: undergrad
 order: 6
-photo: ""
+photo: "/images/chenxiaomeng.jpg"
 collection: portfolio
 ---
 
