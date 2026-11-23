@@ -1,0 +1,11 @@
+{% assign member = include.member %}
+<div class="person-card">
+  {% if member.photo and member.photo != "" %}
+    <img class="avatar" src="{{ member.photo }}" alt="{{ member.name }}">
+  {% else %}
+    <img class="avatar" src="/images/bio-photo.jpg" alt="{{ member.name }}">
+  {% endif %}
+  <h3 class="person-name">{{ member.name }}</h3>
+  <span class="person-role">{{ member.role }}</span>
+  <p class="person-bio">{{ member.content | strip_html | strip_newlines }}</p>
+</div>

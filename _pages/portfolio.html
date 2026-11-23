@@ -1,14 +1,116 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "课题组成员"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  .group-heading {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #333;
+    border-left: 5px solid #c9a961;
+    padding-left: 0.7rem;
+    margin: 2.2rem 0 0.4rem 0;
+  }
+  .people-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.3rem;
+    margin-top: 1.2rem;
+  }
+  .person-card {
+    background: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 14px;
+    padding: 1.6rem 1.2rem 1.3rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .person-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.11);
+  }
+  .person-card img.avatar {
+    width: 132px;
+    height: 132px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+    display: block;
+    border: 3px solid #e8dcc0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+  }
+  .person-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2b2b2b;
+    margin: 0 0 0.45rem 0;
+  }
+  .person-role {
+    display: inline-block;
+    font-size: 0.72rem;
+    color: #8a6d3b;
+    background: #f8f3e6;
+    border: 1px solid #e6d9b8;
+    border-radius: 999px;
+    padding: 0.18rem 0.75rem;
+    margin-bottom: 0.8rem;
+    white-space: normal;
+  }
+  .person-bio {
+    font-size: 0.83rem;
+    color: #5a5a5a;
+    line-height: 1.65;
+    margin: 0;
+    text-align: justify;
+  }
+  .person-bio a { color: #8a6d3b; }
+</style>
 
+{% assign sorted_members = site.portfolio | sort: "order" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+{% for member in sorted_members %}
+  {% if member.group == "leader" %}
+    {% if member.order == 1 %}<h2 class="group-heading">课题组负责人</h2><div class="people-grid">{% endif %}
+    {% include member-card.html member=member %}
+    {% if member.order == 2 %}</div>{% endif %}
+  {% endif %}
 {% endfor %}
 
+{% for member in sorted_members %}
+  {% if member.group == "grad" %}
+    {% if member.order == 3 %}<h2 class="group-heading">研究生</h2><div class="people-grid">{% endif %}
+    {% include member-card.html member=member %}
+    {% if member.order == 4 %}</div>{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% for member in sorted_members %}
+  {% if member.group == "undergrad" %}
+    {% if member.order == 5 %}<h2 class="group-heading">本科生</h2><div class="people-grid">{% endif %}
+    {% include member-card.html member=member %}
+    {% if member.order == 7 %}</div>{% endif %}
+  {% endif %}
+{% endfor %}
+
+{% for member in sorted_members %}
+  {% if member.group == "staff" %}
+    {% if member.order == 8 %}<h2 class="group-heading">科研助理</h2><div class="people-grid">{% endif %}
+    {% include member-card.html member=member %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% for member in sorted_members %}
+  {% if member.group == "alumni" %}
+    <h2 class="group-heading">毕业生</h2>
+    <div class="people-grid">
+    {% include member-card.html member=member %}
+    </div>
+  {% endif %}
+{% endfor %}

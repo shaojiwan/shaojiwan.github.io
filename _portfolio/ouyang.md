@@ -1,9 +1,11 @@
 ---
+name: "杨欧"
 title: "课题组长：杨欧"
-excerpt: "粤港澳大湾区人工智能应用技术研究院 / 欧见·智能视觉实验室（OuLab）"
+role: "课题组长 · 人工智能学院副院长"
+group: leader
+order: 1
+photo: ""
 collection: portfolio
 ---
 
 课题组组长，研究方向涵盖模式识别、计算机视觉与智能人机交互。
-
-（个人照片与详细介绍待补充）
